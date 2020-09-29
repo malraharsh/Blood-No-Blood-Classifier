@@ -15,6 +15,11 @@ To detect the faces with blood and no-blood.
 <img src='https://github.com/malraharsh/Blood-No-Blood-Classifier/blob/master/Sample_Images/Original%20Faces/noblood/noblood_7.jpg' width='250' height='250' />|
 
 
+## Approach:
+1. Used a trained a Mobile Net model by adding new layers on top of it in Original image.
+2. Cropped the images to contain only face region, and used above model.
+3. Modified the image to only contain the red channel. 
+
 ## Steps
 
 1. Removing the corrupt images. 
@@ -32,7 +37,10 @@ To detect the faces with blood and no-blood.
   * Visualizing the plot of Accuracy.
   * Printing the classification report.
   
-5. Predicting:
-  * Getting predictions from trained model.
-  * Displaying the images along with the predictions.
+5. Displaying the images along with the predictions.
 
+## Further Improvements:
+ * Segmenting the color in upper and lower red range. Then using the segmented region for predictions.
+ * Removing the skin color from image and using remaining region for predictions.
+ * Creating artificial data, by adding artificial blood on no blood faces by OpenCV.
+ * Most obvious one, is to get a descent amount of data.
