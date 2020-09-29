@@ -1,6 +1,6 @@
 # Blood-No-Blood-Classifier
 
-To detect the faces with blood and no-blood.
+To classify the faces between blood and no-blood.
 
 ## Sample Images
 
