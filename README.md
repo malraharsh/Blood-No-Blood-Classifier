@@ -16,9 +16,10 @@ To detect the faces with blood and no-blood.
 
 
 ## Approach:
-1. Used a trained a Mobile Net model by adding new layers on top of it in Original image.
-2. Cropped the images to contain only face region, and used above model.
-3. Modified the image to only contain the red channel. 
+1. Using a trained a Mobile Net model by adding new layers on top of it in Original image.
+2. Cropping the images to contain only face region, and used above model.
+3. Modifying the image to only contain the red channel. 
+<img src='https://github.com/malraharsh/Blood-No-Blood-Classifier/blob/master/Sample_Images/Red%20Faces/blood/0_blood_23.jpg' width='250' height='250' />
 
 ## Steps
 
